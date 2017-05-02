@@ -1,5 +1,54 @@
-html, body, #map {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-}/* it is totally okay for this to be completely empty right now, add what you need */
+html,
+body,
+#map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    color: #002366;
+    text-decoration: underline;
+    position: absolute;
+    z-index: 999999;
+    background: #00ff00;
+}
+
+#description {
+    color: rgba(100, 100, 100);
+    position: absolute;
+    z-index: 999999;
+}
+
+.floater title {
+    position: absolute;
+    z-index: 9999999;
+}
+
+.container {
+    top: 10px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 4px;
+    border-radius: 4px;
+    bottom: 70px
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+/*
+.claro {
+  width:600px;
+  height:400px;
+  border:1px solid #000;
+}*/
