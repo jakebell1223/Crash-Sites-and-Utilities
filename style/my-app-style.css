@@ -9,9 +9,11 @@ body,
 #title {
     color: #002366;
     text-decoration: underline;
+    text-decoration: bold;
     position: absolute;
     z-index: 999999;
     background: #00ff00;
+    text-emphasis-position:left
 }
 
 #description {
@@ -20,18 +22,13 @@ body,
     z-index: 999999;
 }
 
-.floater title {
-    position: absolute;
-    z-index: 9999999;
-}
-
 .container {
     top: 10px;
     right: 50px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 4px;
     border-radius: 4px;
-    bottom: 70px
+    opacity: 0.8;
 }
 
 .footer {
@@ -41,7 +38,7 @@ body,
     left: 0;
     padding: 1rem;
     background-color: #efefef;
-    opacity: 0.7;
+    opacity: 0.8;
     text-align: center;
 }
 
